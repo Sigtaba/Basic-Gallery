@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 96vw;
+  height: 96vh;
+  margin: 2vh auto;
+  background-color: red;
+}
+
+.header {
+  width: 96vw;
+  height: 10vh;
+  background-color: blue;
+  background: linear-gradient(to right, #EB7447 , #EB4777);
+  margin: 0 0 1.5vh;
+}
+
+.small-box {
+  width: 45vw;
+  height: 25vh;
+  margin: 1.5vh 1.5vw 1.5vh 1.5vw;
+  background-color: purple;
+  background: linear-gradient(to right, #AB3BDB , #6CD2F3);
+  float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 96vw;
+    height: 10vh;
+    background-color: red;
+  }
+  .small-box {
+    width: 90vw;
+    height: 25vh;
+    margin: 3vh 3vw;
+    float: none;
+    background-color: blue;
+  }
+}
